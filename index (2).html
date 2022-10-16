@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Proyecto Html</title>
+        
+        <!--estilos externos-->
+        <link rel="stylesheet" href="./css/bootstrap.css">
+        <link rel="stylesheet" href="./css/estilos.css">
+       
+    </head>
+    <body>
+     
+        <header>
+          
+    <nav class="navbar navbar-expand-lg encabezado">
+      <div class="container-fluid  ">
+        <a class="navbar-brand confe" href="#">
+        <img  class="  confe logo" src="./assets/images/codoacodo.png" alt="imagen del logo codoacodo" width="130px">
+                Conferencia de Bs As 
+              </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 justificadoFinal">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">La Conferencia</a>
+            </li>
+            <li class="nav-item"><a class="nav-link text-muted link" href="./pages/los_oradores.html">Los Oradores</a></li>
+                  <li class="nav-item"><a class="nav-link text-muted link" href="./pages/lugaryfecha.html"> Lugar y Fecha</a></li>
+                  <li class="nav-item"><a class="nav-link text-muted link" href="./pages/contacto.html">Conviértete en Orador</a></li>
+                  <li class="nav-item"><a class="nav-link tickets link" href="./pages/comprartickets.html">Comprar Tickets</a></li>
+                
+                </ul>
+                
+              </div>
+            </div>
+          </nav>
+        </header>
+
+        <main >
+         <section class="seccionPrincipal  parrafo1" >
+          <div id="carouselExampleInterval" class="carousel slide fotos" data-bs-ride="carousel">
+            <div class="carousel-inner ">
+              <div class="carousel-item active" data-bs-interval="10000">
+                <img class=" fot "src="./assets/images/ba1.jpg" class="d-block w-100 bg-gradient" alt="imagén del museo de Aguas Argentinas">  
+             </div>
+             <div class="carousel-item" data-bs-interval="2000">
+              <img  class="fot" src="./assets/images/ba2.jpg" class="d-block w-100" alt="imagén de un lugar de Bs As ">
+            </div>
+            <div class="carousel-item">
+ 
+              <img class="fot"  src="./assets/images/ba3.jpg" class="d-block w-100" alt="imagén de la avenida 9 de Julio">
+            </div>
+
+                <div class=" parrafo "><!--carousel-caption-->
+                  <h1>Conferencia Bs.As.</h1>
+                    <p>En el Museo de Aguas Argentinas, en la semana de Conferencias Bs. As. se presentaran tres figuras internacionales del área de la tecnología. Donde también participarán otros oradoresde distintas áreas de interés general.</p></p>
+                </div>
+              <!--</section>
+                <section class="boxFlex">-->
+              <div class="pin">
+                <button type="button" class="btn btn-outline-light-secondary ">
+            <a class="botones  " href="./pages/contacto.html">Quiero ser orador</a>
+        </button>
+        <button type="button" class="btn btn-outline-light-secondary ">
+            <a class="botonesColor " href="./pages/comprartickets.html">Comprar Tickets</a></button>
+            </div>
+         <!--</section>
+              </div>--> 
+             
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </section>
+         
+        </main>
+            <!--seccion tarjetas-->
+            <section class="sectionTarjetas" id="oradores">
+                <div class="titulo">
+                   <h3>Conoce a los</h3>
+                    <h2 class="oradores"> ORADORES</h2>
+                    </div>
+
+            <div class="row row-cols-1 row-cols-md-3 g-4 tarjetas">
+                <div class="col tarje">
+                  <div class="card h-100 ">
+                    <img src="./assets/images/steve.jpg" class="card-img-top" alt="imagén de Steve Jobs">
+                    <div class="card-body">
+                        <span class="badge text-bg-warning">JavaScript</span>
+                      <span class="badge text-bg-info">React</span>
+                      <h3 class="card-title">Steve Jobs</h3>
+                      <p class="card-text">Empresario, diseñador industrial, magnate empresarial, propietrario de medios e inversor estaunidense. Cofundador y presidente ejecutivo se Apple.</p>
+                      
+                    </div>
+
+
+                  </div>
+                </div>
+                <div class="col tarje">
+                  <div class="card h-100">
+                    <img src="./assets/images/bill.jpg" class="card-img-top" alt="imagén de Bill Gates">
+                    <div class="card-body">
+                      <span class="badge text-bg-warning">JavaScript</span>
+                      <span class="badge text-bg-info">React</span>
+                      <h3 class="card-title">Bill Gates</h3>
+                      <p class="card-text">Empresario informático y filántropo estadounidence, creador y fundador junto con Poul Allan la empresa Microsoft</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col tarje">
+                  <div class="card h-100 ">
+                    <img src="./assets/images/ada.jpeg" class="card-img-top" alt="imagén de Ada lovelace">
+                    <div class="card-body">
+                        <span class="badge text-bg-secondary">Negocios</span>
+                        <span class="badge text-bg-danger ">Startups</span> 
+                      <h3 class="card-title">Ada Lovelace </h3>
+                      <p class="card-text">Matemática y escritora británica célebre por su trabajo acerca de la computadora macánica de Charles Baddage, la máquina analítica.</p>
+                    </div>
+                  </div>
+                </div>
+        </section>
+        <section class="caja">
+          <div class="card mb-8">
+            <div class="row g-0">
+              <div class="col-md-8 imagen">
+                <img src="./assets/images/1513286596901mardel.jpg" class="img-fluid rounded-start" alt="...">
+              </div>
+              <div class="col-md-12">
+                <div class="card-body text texto">
+                  <h3 class="card-title ">Bs.As. Octubre</h3>
+                  <p class="card-text ">La ciudad de Buenos Aires cuenta con diferentes lugares que podes disfrutar, uno de ellos es Mar del Plata a pocos kilometros de la ciudad. Con sus playas y su gente muy coordial te haran pasar unos dias maravillosos</p> 
+                  <p>Te esperan distintos eventos de interés general que te motivarán a emprender, innovar y aprender.</p>
+                  <a href="#" class="btn btn botones inpu bg#99FCDC mas">Conoce Más</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+       <section> 
+        <table class="tablas">
+            <thead >
+              
+                <tr >
+                  
+                    <th>Orador</th>
+                    <th>Día</th>
+                    <th>Horario</th>
+                </tr>
+              </div>
+            </thead>
+            <tbody>
+              
+                <tr>
+                    <td>Steve Jobs</td>
+                    <td>Lun. Y Mie.</td>
+                    <td>18:30hs a 20:00hs</td>
+                </tr>
+              </div>
+                <tr>
+                    <td>Bill Gates</td>
+                    <td>Mart. Y Juev.</td>
+                    <td>18:30hs a 20:00hs</td>
+                </tr>
+                <tr>
+                    <td>Ada Lovelace</td>
+                    <td>Lun. Y Mie.</td>
+                    <td>10:00hs a 11:30hs</td>
+                </tr>
+              </div>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="3"> <a href="" class="btn btn-light entradas inpu">Sacar Entradas</a> </td>
+                </tr>
+            </tfoot>
+           
+           
+        </table>
+       </section>
+       <br><br>
+       <section class="formulario" id="formulario">
+        <form action="">
+         <div class="tex">
+          <h3>Conviérte en un</h3>
+          <h2>Orador</h2>
+          <p>Anótate como orador para dar una charla motivacional. Cuéntanos de qué quieres hablar.</p>
+         </div>
+           <div class="row">
+           <div class="col">
+           <input type="text" class="form-control" placeholder="Nombre" aria-label="First name">
+           </div>
+           <div class="col">
+           <input type="text" class="form-control" placeholder="Apellido" aria-label="Last name">
+           </div> 
+           <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label">"Sobre qué quieres hablar?"</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            <p>Anótate como orador para dar una charla motivacional. Cuéntanos de qué quieres hablar.</p>
+          </div>  
+          <div class="mail">
+            <input class ="enviar " type="submit" value="Enviar">
+            </div>
+          
+         </form>
+      </section>
+       <footer>
+        <div class=" container"> 
+        <div class="p-2 flex-fill te">
+        <a class="pie" href="https://codoacodo.com" target="_blank">Preguntas frecuentes</a>
+     <a class="pie" href="https://codoacodo.com" target="_blank">Contáctanos</a>
+      <a class="pie" href="https://codoacodo.com" target="_blank">Prensa</a>
+      <a class="pie" href="https://codoacodo.com" target="_blank">Términos y Condiciones</a>
+     <a class="pie" href="https://codoacodo.com" target="_blank">Conferencias</a>
+      <a class="pie" href="https://codoacodo.com" target="_blank">Privacidad</a> 
+      <a class="pie" href="https://codoacodo.com" target="_blank">Estudiante</a> 
+    </div>  
+  </div> 
+       </footer>
+       <script src="./js/bootstrap.bundle.min.js"></script>
+    </body>
+</html>
